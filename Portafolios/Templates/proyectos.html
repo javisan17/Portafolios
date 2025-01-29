@@ -1,0 +1,44 @@
+{% load static %}
+<section id="proyectos-section">
+    <h2>Proyectos</h2>
+    <table class="proyectos-table">
+        <tbody>
+            <tr class="fila1">
+                <td class="proyectos-item">
+                    <img src="{% static 'gestor_icono.png'%}" class="proyectos-icono">
+                    <div class="proyecto-content">
+                        <div class="arriba-div">
+                            <h3>Gestor de contraseñas</h3>
+                            <p>Es un proyecto de Gestor de contraseñas muy básico. Tiene varias partes:</p>
+                                <p>-Un generador de contraseñas mediante POO con un algoritmo muy sencillo para crearlas.</p>
+                                <p>-Un almacen de las contraseñas en un db. Tiene un pequeño programa de preguntas con las que puedes introducir contraseñas en una db para uso personal y tenerlas almacenadas ahí.</p>
+                        </div>
+                        <div class="abajo-div">
+                            <table>
+                                <tr class="techs-list">
+                                    <td class="techs-item python">
+                                        <i class="fa-brands fa-python"></i> Python
+                                    </td>
+                                    <td class="techs-item sql">
+                                        <i class="fa-solid fa-database"></i> SQL
+                                    </td>
+                                </tr>
+                                <tr class="links-list">
+                                    <td class="links-item">
+                                        <a href="https://github.com/javisan17/Gestor-de-contrase-as">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <aside class="lateral-proyectos">
+                        <img src="{% static 'gestor_imagen.png' %}" class="proyectos-imagen">
+                    </aside>
+                </td>
+                    <!--Poner nuevos proyectos-->
+            </tr>
+        </tbody>
+    </table>
+</section>

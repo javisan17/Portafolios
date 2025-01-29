@@ -1,0 +1,12 @@
+{% load static %}
+<header>
+    <img src="{% static 'mifoto.jpg' %}" id="mifoto">
+    <aside class="lateral-header">
+        <h1 id="nombre">Javier Sánchez Mayoral</h1>
+        <h3 id="profesion">Ingeniero Biomédico y Programador</h3>
+        <h4 id="ubicacion">
+            <i class="fa-solid fa-location-dot"></i> Madrid, España
+        </h4>
+        {% include 'contacto-botones.html' %}
+    </aside>
+</header>
